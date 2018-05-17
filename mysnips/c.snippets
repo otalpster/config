@@ -1,0 +1,32 @@
+snippet hc
+/*******************************************************************************
+ * File: $1
+ * Purpose: $2
+*******************************************************************************/
+$0
+endsnippet
+
+snippet main
+int main(${1:int n_args, char *args[]}) {
+    $0
+
+    return EXIT_SUCCESS;
+}
+endsnippet
+
+snippet if
+if ($1) {
+    $0
+}
+endsnippet
+
+snippet funci
+${1:rtype} ${2:funcname}(${3:args}) {
+    $0
+    return;
+}
+endsnippet
+
+snippet funcd
+${1:rtype} ${2:funcname}(${3:args});
+endsnippet
