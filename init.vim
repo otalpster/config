@@ -192,6 +192,9 @@ Plug 'Xuyuanp/nerdtree-git-plugin'
 
 Plug 'dhruvasagar/vim-table-mode'
 
+" Load LaTeX support.
+Plug 'lervag/vimtex'
+
 " Initialize plugin system.
 call plug#end()
 
