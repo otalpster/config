@@ -241,6 +241,9 @@ let NERDTreeAutoDeleteBuffer = 1
 " Close nvim if the only window left open is NERDTree.
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 
+"" vim-polyglot
+let g:polyglot_disabled = ['latex']
+
 " -------------------------------------------------------------------
 " Graphic options:
 " -------------------------------------------------------------------
