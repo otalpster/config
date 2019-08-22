@@ -74,6 +74,10 @@ inoremap <Down> <NOP>
 inoremap <Left> <NOP>
 inoremap <Right> <NOP>
 
+" Control-S Save.
+nmap <C-s> :w<LF>
+imap <C-s> <C-o>:w<LF>
+
 " ----------
 " Plug
 " ----------
