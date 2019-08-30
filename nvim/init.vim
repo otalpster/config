@@ -66,18 +66,20 @@ nnoremap <silent> <Esc> :nohlsearch<Bar>:echo<LF>
 " Switch to previous buffer.
 nnoremap <Leader><Leader> :e#<LF>
 
-" Make arrow keys useless.
+" Make arrow keys useless for n,v,s,o.
 noremap <Up> <NOP>
 noremap <Down> <NOP>
 noremap <Left> <NOP>
 noremap <Right> <NOP>
+" Make arrow keys useless for i.
 inoremap <Up> <NOP>
 inoremap <Down> <NOP>
 inoremap <Left> <NOP>
 inoremap <Right> <NOP>
 
-" Control-S Save.
+" Control-S Save in n.
 nmap <C-s> :w<LF>
+" Control-S Save in i.
 imap <C-s> <C-o>:w<LF>
 
 " Session management.
@@ -115,15 +117,17 @@ Plug 'otalpster/simpleline.vim'
 
 call plug#end()
 
+" Enable syntax highlighting.
 syntax on
 
+" Use 24-bit color and highlight-guifg highlight-guibg attributes.
 set termguicolors
 
 " ------------------------------------------------------------------------------
 " Plug-in config
 " ------------------------------------------------------------------------------
 
-" One dark colorscheme:
+" One dark colorscheme options.
 let g:onedark_hide_endofbuffer=1
 let g:onedark_terminal_italics=1
 let g:onedark_termcolors=256
