@@ -50,6 +50,8 @@ set updatetime=250
 set wildignore=*.o
 " Jump to matching paren/brackets etc when inserting closing one.
 set showmatch
+" Minimum number of screen lines to keep above and below the cursor.
+set scrolloff=5
 
 " ------------------------------------------------------------------------------
 " Mapping options
