@@ -39,7 +39,7 @@ set smarttab
 set textwidth=80
 set formatoptions+=t
 set formatoptions-=l
-filetype indent on
+filetype plugin indent on
 set autoindent
 " Enable undofile.
 set undofile
