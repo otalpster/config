@@ -48,6 +48,8 @@ set undodir=$HOME/.config/nvim/undo
 set updatetime=250
 " Ignore *.o files when searching for a file (using :e or Ctrl-P).
 set wildignore=*.o
+" Jump to matching paren/brackets etc when inserting closing one.
+set showmatch
 
 " ------------------------------------------------------------------------------
 " Mapping options
