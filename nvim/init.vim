@@ -35,8 +35,8 @@ set tabstop=4
 set shiftwidth=4
 set softtabstop=4
 set smarttab
-" Hard wrap at 91 characters. Each line holds 90 characters.
-set textwidth=90
+" Hard wrap at 81 characters. Each line holds 80 characters.
+set textwidth=80
 set formatoptions+=t
 set formatoptions-=l
 filetype indent on
