@@ -22,7 +22,7 @@ set noruler
 set noshowmode
 " Enable list characters.
 set list
-set listchars=trail:•
+set listchars+=trail:•
 
 " ------------------------------------------------------------------------------
 " Usability options
