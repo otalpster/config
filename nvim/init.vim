@@ -9,8 +9,8 @@
 set number
 " Show numbers relative to current line's number.
 set relativenumber
-" Show a vertical line at 71 column.
-set colorcolumn=71
+" Show a vertical line at textwidth + 1.
+set colorcolumn=+1
 " Enable highligh search.
 set hlsearch
 " Show status line always.
