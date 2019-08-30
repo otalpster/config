@@ -1,9 +1,9 @@
 " Authors: Plato Kiorpelidis <otalpster@gmail.com>
 " Description: A minimal, but feature rich, neovim config.
 
-" ----------
+" ------------------------------------------------------------------------------
 " Visual options:
-" ----------
+" ------------------------------------------------------------------------------
 
 " Show current line's number.
 set number
@@ -16,18 +16,18 @@ set hlsearch
 " Show status line always.
 set laststatus=2
 " Don't show the line number, the column number, the virtual column number,
-" and the relative position of the cursor in the file
+" and the relative position of the cursor in the file.
 set noruler
 "set cmdheight=2
 " Don't show the current mode.
 set noshowmode
 " Enable list characters.
 set list
-set listchars+=trail:•
+set listchars=trail:•
 
-" ----------
+" ------------------------------------------------------------------------------
 " Usability options
-" ----------
+" ------------------------------------------------------------------------------
 
 " Allow switching between buffers w/o saving.
 set hidden
@@ -49,11 +49,11 @@ set undodir=$HOME/.config/nvim/undo
 " Update screen faster (for git gutter).
 set updatetime=250
 " Ignore *.o files when searching for a file (using :e or Ctrl-P).
-set wildignore+=*.o
+set wildignore=*.o
 
-" ----------
+" ------------------------------------------------------------------------------
 " Mapping options
-" ----------
+" ------------------------------------------------------------------------------
 
 " Map leader key to space.
 let mapleader=" "
@@ -83,9 +83,9 @@ let g:sessions_dir="~/.config/nvim/sessions"
 exec 'nnoremap <Leader>ss :mks! ' . g:sessions_dir . '/*.vim<C-D><BS><BS><BS><BS><BS>'
 exec 'nnoremap <Leader>sr :so ' . g:sessions_dir. '/*.vim<C-D><BS><BS><BS><BS><BS>'
 
-" ----------
-" Plug
-" ----------
+" ------------------------------------------------------------------------------
+" Vim-Plug
+" ------------------------------------------------------------------------------
 
 " Specify a directory for plugins.
 call plug#begin('~/.config/nvim/plugged')
@@ -117,9 +117,9 @@ syntax on
 
 set termguicolors
 
-" ----------
+" ------------------------------------------------------------------------------
 " Plug-in config
-" ----------
+" ------------------------------------------------------------------------------
 
 " One dark colorscheme:
 let g:onedark_hide_endofbuffer=1
