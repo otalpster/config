@@ -18,7 +18,6 @@ set laststatus=2
 " Don't show the line number, the column number, the virtual column number,
 " and the relative position of the cursor in the file.
 set noruler
-"set cmdheight=2
 " Don't show the current mode.
 set noshowmode
 " Enable list characters.
@@ -40,7 +39,6 @@ set smarttab
 set textwidth=90
 set formatoptions+=t
 set formatoptions-=l
-"set confirm
 filetype indent on
 set autoindent
 " Enable undofile.
