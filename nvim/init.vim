@@ -98,7 +98,7 @@ call plug#begin('~/.config/nvim/plugged')
 Plug 'ctrlpvim/ctrlp.vim'
 
 " Load syntastic (syntax checker).
-Plug 'vim-syntastic/syntastic'
+Plug 'dense-analysis/ale'
 
 " Load git gutter.
 Plug 'airblade/vim-gitgutter'
