@@ -99,7 +99,7 @@ call plug#begin('~/.config/nvim/plugged')
 " Load fuzzy finder Ctrl-P.
 Plug 'ctrlpvim/ctrlp.vim'
 
-" Load syntastic (syntax checker).
+" Load ale (syntax checker).
 Plug 'dense-analysis/ale'
 
 " Load git gutter.
