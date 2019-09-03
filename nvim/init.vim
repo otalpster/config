@@ -23,8 +23,8 @@ set noshowmode
 " Enable list characters.
 set list
 set listchars+=trail:•
-" Show tabs with a space and tabstop - 1 tailing spaces.
-set listchars+=tab:\ \ 
+" Show tabs with a ▏ for indentation and tabstop - 1 tailing spaces.
+set listchars+=tab:\▏\ 
 
 " ------------------------------------------------------------------------------
 " Usability options
