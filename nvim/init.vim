@@ -11,6 +11,8 @@ set number
 set relativenumber
 " Show vertical lines after textwidth + 1.
 let &l:colorcolumn='+' . join(range(1, 254), ',+')
+" Highlight current line.
+set cursorline
 " Enable highligh search.
 set hlsearch
 " Show status line always.
