@@ -9,8 +9,8 @@
 set number
 " Show numbers relative to current line's number.
 set relativenumber
-" Show a vertical line at textwidth + 1.
-set colorcolumn=+1
+" Show vertical lines after textwidth + 1.
+let &l:colorcolumn='+' . join(range(1, 254), ',+')
 " Enable highligh search.
 set hlsearch
 " Show status line always.
