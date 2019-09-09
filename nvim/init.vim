@@ -114,10 +114,14 @@ Plug 'tpope/vim-fugitive'
 Plug 'scrooloose/nerdcommenter'
 
 " Load colorscheme onedark (atom).
+" Required by simpleline.vim statusline.
 Plug 'joshdick/onedark.vim'
 
 " Load statusline.
 Plug 'otalpster/simpleline.vim'
+
+" Load colorscheme hybrid_reverse.
+Plug 'kristijanhusak/vim-hybrid-material'
 
 call plug#end()
 
