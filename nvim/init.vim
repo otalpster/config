@@ -26,7 +26,7 @@ set noshowmode
 set list
 set listchars+=trail:•
 " Show tabs with a ▏ for indentation and tabstop - 1 tailing spaces.
-set listchars+=tab:\▏\ 
+set listchars+=tab:\\ 
 
 " ------------------------------------------------------------------------------
 " Usability options
