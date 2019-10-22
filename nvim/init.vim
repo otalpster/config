@@ -135,8 +135,8 @@ set termguicolors
 " Plug-in config
 " ------------------------------------------------------------------------------
 
-" hybrid_reverse colorscheme options.
-let g:enable_bold_font=1
-let g:enable_italic_font=1
-set background=dark
-colorscheme hybrid_reverse
+" One dark colorscheme options.
+let g:onedark_hide_endofbuffer=1
+let g:onedark_terminal_italics=1
+let g:onedark_termcolors=256
+colorscheme onedark
