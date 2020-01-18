@@ -143,8 +143,8 @@ set termguicolors
 " Plug-in config
 " ------------------------------------------------------------------------------
 
-" One dark colorscheme options.
-let g:onedark_hide_endofbuffer=1
-let g:onedark_terminal_italics=1
-let g:onedark_termcolors=256
-colorscheme onedark
+let g:gruvbox_italic=1
+let g:gruvbox_contrast_dark="hard"
+let g:gruvbox_number_column="dark0"
+set background=dark
+colorscheme gruvbox
