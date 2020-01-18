@@ -125,8 +125,6 @@ Plug 'joshdick/onedark.vim'
 " Load statusline.
 Plug 'otalpster/simpleline.vim'
 
-" Load colorscheme hybrid_reverse.
-Plug 'kristijanhusak/vim-hybrid-material'
 
 " Load ack frontend for vim.
 Plug 'mileszs/ack.vim'
