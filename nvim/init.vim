@@ -40,10 +40,11 @@ set tabstop=4
 set shiftwidth=4
 set softtabstop=4
 set smarttab
-" Hard wrap at 81 characters. Each line holds 80 characters.
+" Each line holds 80 characters. Used for formating text with gq.
 set textwidth=80
-set formatoptions+=t
-set formatoptions-=l
+set formatoptions-=t
+set formatoptions+=l
+set formatoptions+=q
 filetype plugin indent on
 set autoindent
 " Enable undofile.
