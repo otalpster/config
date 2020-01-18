@@ -103,11 +103,11 @@ nmap <C-f> :Ack ''<LEFT>
 " Specify a directory for plugins.
 call plug#begin('~/.config/nvim/plugged')
 
+" Load autocompletion.
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
+
 " Load fuzzy finder Ctrl-P.
 Plug 'ctrlpvim/ctrlp.vim'
-
-" Load ale (syntax checker).
-Plug 'dense-analysis/ale'
 
 " Load git gutter.
 Plug 'airblade/vim-gitgutter'
