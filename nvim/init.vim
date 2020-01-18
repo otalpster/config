@@ -125,6 +125,8 @@ Plug 'joshdick/onedark.vim'
 " Load statusline.
 Plug 'otalpster/simpleline.vim'
 
+" Load colorscheme gruvbox.
+Plug 'morhetz/gruvbox'
 
 " Load ack frontend for vim.
 Plug 'mileszs/ack.vim'
