@@ -13,7 +13,7 @@ set relativenumber
 "let &l:colorcolumn='+' . join(range(3, 254), ',+')
 set colorcolumn=81
 " Highlight current line.
-set cursorline
+"set cursorline
 " Enable highligh search.
 set hlsearch
 " Show status line always.
