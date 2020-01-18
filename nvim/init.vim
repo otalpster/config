@@ -93,6 +93,9 @@ let g:sessions_dir="~/.config/nvim/sessions"
 exec 'nnoremap <Leader>ss :mks! ' . g:sessions_dir . '/*.vim<C-D><BS><BS><BS><BS><BS>'
 exec 'nnoremap <Leader>sr :so ' . g:sessions_dir. '/*.vim<C-D><BS><BS><BS><BS><BS>'
 
+" Launch ack.vim with ctrl-f.
+nmap <C-f> :Ack ''<LEFT>
+
 " ------------------------------------------------------------------------------
 " Vim-Plug
 " ------------------------------------------------------------------------------
