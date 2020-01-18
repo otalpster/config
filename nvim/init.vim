@@ -10,7 +10,8 @@ set number
 " Show numbers relative to current line's number.
 set relativenumber
 " Show vertical lines after textwidth + 1.
-let &l:colorcolumn='+' . join(range(1, 254), ',+')
+"let &l:colorcolumn='+' . join(range(3, 254), ',+')
+set colorcolumn=81
 " Highlight current line.
 set cursorline
 " Enable highligh search.
