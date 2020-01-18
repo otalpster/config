@@ -143,6 +143,14 @@ set termguicolors
 " Plug-in config
 " ------------------------------------------------------------------------------
 
+" Some useful mappings for ack.vim.
+"
+" j: move to the next result in list and preview it.
+" k: move to the previous result in list and preview it.
+let g:ack_mappings = {
+	\ "j": "j<CR><C-W>p",
+	\ "k": "k<CR><C-W>p" }
+
 let g:gruvbox_italic=1
 let g:gruvbox_contrast_dark="hard"
 let g:gruvbox_number_column="dark0"
